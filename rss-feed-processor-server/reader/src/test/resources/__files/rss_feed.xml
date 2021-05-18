@@ -1,0 +1,29 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+    <channel>
+        <title>NYT > World News</title>
+        <link>https://www.nytimes.com/section/world</link>
+        <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/World.xml" rel="self" type="application/rss+xml"/>
+        <description/>
+        <language>en-us</language>
+        <copyright>Copyright 2021 The New York Times Company</copyright>
+        <lastBuildDate>Mon, 17 May 2021 20:15:36 +0000</lastBuildDate>
+        <pubDate>Mon, 17 May 2021 20:15:36 +0000</pubDate>
+        <image>
+            <title>NYT > World News</title>
+            <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+            <link>https://www.nytimes.com/section/world</link>
+        </image>
+        <item>
+            <title>Conflict Enters Second Week With Heavy Israeli Strikes and Rocket Fire from Gaza</title>
+            <link>https://www.nytimes.com/live/2021/05/17/world/israel-gaza-updates/</link>
+            <guid isPermaLink="true">https://www.nytimes.com/live/2021/05/17/world/israel-gaza-updates/</guid>
+            <atom:link href="https://www.nytimes.com/live/2021/05/17/world/israel-gaza-updates/" rel="standout"/>
+            <description>Battles were waged in the skies above Israel and the ground below Gaza City</description>
+            <dc:creator>The New York Times</dc:creator>
+            <pubDate>Mon, 17 May 2021 20:14:25 +0000</pubDate>
+            <media:content height="151" medium="image" url="https://static01.nyt.com/images/2021/05/17/world/17israel-gaza-briefing-lede-sub1/17israel-gaza-briefing-lede-sub1-moth.jpg" width="151"/>
+            <media:credit>Dan Balilty for The New York Times</media:credit>
+            <media:description>A residential building in Ashdod in southern Israel on Monday after it was hit by rockets fired from the Gaza Strip.</media:description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>rss-feed-processor-server</artifactId>
+        <groupId>com.gamesys.services</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>rss-feed-processor-server-all</artifactId>
+
+    <name>RssFeedProcessorServer - All</name>
+    <description>Gamesys RssFeedProcessorServer All project</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.gamesys.services</groupId>
+            <artifactId>rss-feed-processor-server-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.gamesys.services</groupId>
+            <artifactId>rss-feed-processor-server-scheduler</artifactId>
+        </dependency>
+    </dependencies>
+</project>

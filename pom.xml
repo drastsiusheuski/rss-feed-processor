@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.5</version>
+        <relativePath/>
+    </parent>
+    <groupId>com.gamesys.services</groupId>
+    <artifactId>rss-feed-processor-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>RssFeedProcessor parent</name>
+    <description>Gamesys RssFeedProcessor parent project</description>
+
+    <modules>
+        <module>rss-feed-processor</module>
+        <module>rss-feed-processor-server</module>
+        <module>rss-feed-processor-functional-tests</module>
+    </modules>
+
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.gamesys.services</groupId>
+                <artifactId>rss-feed-processor-server-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gamesys.services</groupId>
+                <artifactId>rss-feed-processor-server-reader</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gamesys.services</groupId>
+                <artifactId>rss-feed-processor-server-processor</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gamesys.services</groupId>
+                <artifactId>rss-feed-processor-server-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gamesys.services</groupId>
+                <artifactId>rss-feed-processor-server-scheduler</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gamesys.services</groupId>
+                <artifactId>rss-feed-processor-server-all</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gamesys.services</groupId>
+                <artifactId>rss-feed-processor</artifactId>
+                <classifier>original</classifier>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-ui</artifactId>
+                <version>1.5.8</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
